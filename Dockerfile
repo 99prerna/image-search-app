@@ -2,6 +2,6 @@ FROM httpd:latest
 
 COPY . ./htdocs
 
-EXPOSE 5505
+EXPOSE 80
 
 WORKDIR /urs/src/app
